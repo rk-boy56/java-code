@@ -155,17 +155,17 @@ public class gswitch {
 
         // Your own version of today's grading project, with a different grading scale of your choice.
 
-        System.out.print("enter student marks : ");
-        int marks1 = user.nextInt();
+        // System.out.print("enter student marks : ");
+        // int marks1 = user.nextInt();
 
-        switch (marks1) {
-            case value:
+        // switch (marks1) {
+        //     case value:
                 
-                break;
+        //         break;
         
-            default:
-                break;
-        }
+        //     default:
+        //         break;
+        // }
 
     }
 }
