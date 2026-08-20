@@ -54,7 +54,7 @@ public class gswitch {
 
         // System.out.println("student name : " + name);
 
-        // switch (true) {
+        // switch (marks / 10) {
         // case (marks > 100 || marks < 0):
         // System.out.println("invalid marks");
         // break;
@@ -88,6 +88,58 @@ public class gswitch {
         // break;
         // }
         // user.close();
+        
+
+        // Take student's name
+        System.out.print("Enter your name: ");
+        String name = user.nextLine();
+
+        // Take student's marks
+        System.out.print("Enter your marks (0-100): ");
+        int marks = user.nextInt();
+
+        System.out.println("\nStudent Name: " + name);
+
+        // Check marks and calculate grade
+        switch (marks / 10) {
+
+            case 10:
+            case 9:
+                System.out.println("Grade: A");
+                System.out.println("Result: You are Pass");
+                break;
+
+            case 8:
+                System.out.println("Grade: B");
+                System.out.println("Result: You are Pass");
+                break;
+
+            case 7:
+                System.out.println("Grade: C");
+                System.out.println("Result: You are Pass");
+                break;
+
+            case 6:
+                System.out.println("Grade: D");
+                System.out.println("Result: You are Pass");
+                break;
+
+            case 5:
+            case 4:
+                System.out.println("Grade: E");
+                System.out.println("Result: You are Pass");
+                break;
+
+            default:
+                if (marks >= 0 && marks < 40) {
+                    System.out.println("Grade: F");
+                    System.out.println("Result: You are Fail");
+                } else {
+                    System.out.println("Invalid marks!");
+                }
+        }
+
+        user.close();
 
         // A switch-based food ordering menu with at least 4 items and a running total.
 
