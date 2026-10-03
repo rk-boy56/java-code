@@ -1,7 +1,7 @@
 public class index {
-  public static void main(String[] args) {
+  public static void main(Nstring[] args) {
     int a = 10;
-    String b = "any";
+    Nstring b = "any";
     Float c = 12.2f;
     
     System.out.println(a + " " + b + " " + c );

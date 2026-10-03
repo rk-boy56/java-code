@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Loop {
-    public static void main(String[] args) {
+    public static void main(Nstring[] args) {
         Scanner user = new Scanner(System.in);
 
         // 1. Print Numbers 1 to 10
@@ -175,22 +175,23 @@ public class Loop {
         // 1. Count Even and Odd Digits
         // Given a number, count how many digits are even and how many are odd.
         // Example: 123456 → Even = 3, Odd = 3
-        System.out.println("1st answer...............");
+        // System.out.println("1st answer...............");
 
-        System.out.print("enter any no. : ");
-        long take = user.nextLong();
-        long even = 0;
-        long odd = 0;
-        while (take != 0) {
-            long digit = take % 10;
-            if (digit % 2 == 0) {
-                even++;
-            } else {
-                odd++;
-            }
-            take = take / 10;
-        }
-        System.out.println("total even no. = " + even + "\n" + "total odd no. = " +odd);
+        // System.out.print("enter any no. : ");
+        // long take = user.nextLong();
+        // long even = 0;
+        // long odd = 0;
+        // while (take != 0) {
+        // long digit = take % 10;
+        // if (digit % 2 == 0) {
+        // even++;
+        // } else {
+        // odd++;
+        // }
+        // take = take / 10;
+        // }
+        // System.out.println("total even no. = " + even + "\n" + "total odd no. = "
+        // +odd);
 
         // 2. Sum of Even Digits
         // Find the sum of only the even digits.
@@ -351,6 +352,50 @@ public class Loop {
         // num = num / 10;
         // }
         // System.out.println("total no. of zeros = " + count);
+
+        // for (int i = 1; i <= 4; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // for (int i = 4; i >= 1; i--) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // Mini Project: Student Marks Analyzer
+        // Requirements:
+        // • Ask number of students
+        // • Take marks as input
+        // • Store marks in an array
+        // • Display all marks
+        // • Calculate total and average
+        // • Find highest and lowest
+        // • Count passed and failed students
+
+        System.out.println("enter subjects");
+
+        int size = user.nextInt();
+        int array[] = new int[size];
+        int totalmarks = 0;
+        
+        System.out.println("enter marks");
+        for (int i = 0; i < size; i++) {
+            
+            array[i] = user.nextInt();
+        }
+        
+        for (int i = 0; i < size; i++) {
+            totalmarks += array[i];
+        }
+        double percentage = totalmarks / size;
+
+        System.out.println("totalmarks = " + totalmarks);
+        System.out.println("percentage = " + percentage + "%");
 
     }
 
