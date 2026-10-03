@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Adloop {
-    public static void main(Nstring[] args) {
+    public static void main(Strings[] args) {
         Scanner user = new Scanner(System.in);
 
         // Find the second-largest digit

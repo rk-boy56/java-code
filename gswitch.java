@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class gswitch {
-    public static void main(Nstring[] args) {
+    public static void main(Strings[] args) {
 
         Scanner user = new Scanner(System.in);
 
@@ -92,7 +92,7 @@ public class gswitch {
 
         // Take student's name
         System.out.print("Enter your name: ");
-        Nstring name = user.nextLine();
+        Strings name = user.nextLine();
 
         // Take student's marks
         System.out.print("Enter your marks (0-100): ");

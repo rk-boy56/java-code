@@ -1,5 +1,5 @@
 public class data {
-    public static void main(Nstring[] args) {
+    public static void main(Strings[] args) {
 
                                             //    Boolean
 
@@ -41,30 +41,30 @@ public class data {
 
         // Store your name, age, and city in separate variables, then print one combined sentence using +.
 
-        Nstring name = "Rohit";
+        Strings name = "Rohit";
         int age = 19;
-        Nstring city = "Koderma";
+        Strings city = "Koderma";
 
         System.out.println("my name is " + name + " and my age is " + age + " and i an from " + city );
 
         // Store your favorite movie and favorite food as Strings, then print both in one sentence.
 
-        Nstring anime = "Naruto";
-        Nstring food = "fried rice";
+        Strings anime = "Naruto";
+        Strings food = "fried rice";
 
         System.out.println("my favorite anime is " + anime + " and my favorite food is " + food);
 
         // Create a char for your first initial and a String for your full name — print both, labeled.
 
         char first = 'R';
-        Nstring full = "ohit";
+        Strings full = "ohit";
 
         System.out.println(first + full);
 
         // Store a name and a domain as Strings, then concatenate them into a fake email address, e.g. name + "@example.com".
 
-        Nstring dname = "rohit009";
-        Nstring email = "@gmail.com";
+        Strings dname = "rohit009";
+        Strings email = "@gmail.com";
 
         System .out.println(dname + email);
 

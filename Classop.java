@@ -1,5 +1,5 @@
 class Student {
-    Nstring name;
+    Strings name;
     int rno;
     float marks;
 
@@ -12,7 +12,7 @@ class Student {
         System.out.println("my name is " + this.name);
     }
 
-    void changeName (Nstring newName) {
+    void changeName (Strings newName) {
         this.name = newName;
     }
 
@@ -24,7 +24,7 @@ class Student {
 }
 
 public class Classop {
-    public static void main(Nstring[] arg) {
+    public static void main(Strings[] arg) {
         Student st1 = new Student();
         // st1.name = "rohit saw";
         // st1.rno = 15;

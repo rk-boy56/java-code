@@ -1,10 +1,10 @@
 public class hellow {
-    public static void main(Nstring[] args) {
+    public static void main(Strings[] args) {
 
         // Declare an int variable with your age and print it with a label, e.g. "My age is: 21"
 
         int age = 19;
-        Nstring me = " my age is : ";
+        Strings me = " my age is : ";
         System.out.println(me + age );
         // Create int num1 = 15 and num2 = 4. Print their sum, difference, product, and quotient.
 
@@ -20,22 +20,22 @@ public class hellow {
 
         // Store your name in a Stringinginginginginging and print "Hello, my name is <name>"
 
-        Nstring name = "rohit";
-        Nstring intro = "Hello, my name is ";
+        Strings name = "rohit";
+        Strings intro = "Hello, my name is ";
 
         System.out.println(intro + name);
 
         // Create a boolean isStudent and print a sentence stating true or false.
 
         boolean isStudent = true;
-        Nstring about = ", i am a student";
+        Strings about = ", i am a student";
 
         System.out.println(isStudent + about);
 
         // Store an item's price as a double (e.g. 499.99) and print it with a currency label.
 
         double price = 499.99;
-        Nstring currency = "price : $ ";
+        Strings currency = "price : $ ";
 
 
         System.out.println(currency + price);
@@ -43,7 +43,7 @@ public class hellow {
         // Store the first letter of your name in a char and print it.
 
         char first = 'R';
-        Nstring other = "ohit";
+        Strings other = "ohit";
 
         System.out.println(first + other);
         

@@ -1,5 +1,5 @@
 public class operate {
-    public static void main(Nstring[] args){
+    public static void main(Strings[] args){
 
         // Add two integers and print the sum. 
 
